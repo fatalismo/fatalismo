@@ -1,13 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music</title>
+	<meta charset="UTF-8">
+	<title>Meu primeiro site</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!--css importante-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  	<!--/css importante-->
+
+  	<style type="text/css">	
+	h1, h2, h3 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	img {
+		margin-top: 10px;
+		margin-bottom: 15px;	
+	}
+
+	.navbar {
+		padding: 1rem 1rem;
+	}
+  	</style>
+
 </head>
 <body>
-    <header>musica da doja cat</header>
-<h1>doja cat
-<p>Amala Ratna Zandile Dlamini.</p>
-<p>conhecida profissionalmente como Doja Cat.</p>
-<p>é uma rapper, cantora, compositora, produtora musical e pintora americana.</p>
+
+	<!--MENU-->	
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<div class="container">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">teste</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">teste2</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">teste3</a>
+          </li>   
+        </ul>
+      </div>
+    </div>
+    </nav>
+	<!--/MENU-->
+
+
+	<!--site-->
+	
+	<div class="container" style="margin-top: 67px;">
+		
+	<div class="row">
+
+	<!--artigos-->
+		
+	<div class="col-md-8">
+	<!--artigo 1-->
+
+	<h2>O que é Lorem Ipsum?</h2>
+
+	<img src="img-1.png" class="img-fluid">
+
+	<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+	
+	<!--/artigo 1-->
+
+	<hr>
+
+	<!--artigo 2-->
+
+	<h2>Porque nós o usamos?</h2>
+
+	<img src="img-2.png" class="img-fluid">
+
+	<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).</p>
+
+	<!--/artigo 2-->
+
+	</div><!--/col-md-8-->
+	
+	<!--/artigos-->
+
+	<!--sidebar-->
+	<div class="col-md-4">
+
+	<h3>Categorias</h3>
+	<ul class="list-group">
+  	<li class="list-group-item">Cras justo odio</li>
+  	<li class="list-group-item">Dapibus ac facilisis in</li>
+  	<li class="list-group-item">Morbi leo risus</li>
+  	<li class="list-group-item">Porta ac consectetur ac</li>
+  	<li class="list-group-item">Vestibulum at eros</li>
+	</ul>
+
+	</div><!--/col-md-4-->
+
+	<!--/sidebar-->
+
+	</div><!--/row-->
+
+	</div><!--/container-->
+
+	<!--/site-->
+
+
+	<!--JS IMPORTANTE-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<!--/JS IMPORTANTE-->
+</body>
+</html>
